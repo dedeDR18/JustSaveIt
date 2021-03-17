@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragment_note"
+    android:id="@+id/main_navigation">
+
+    <fragment
+        android:id="@+id/fragment_note"
+        android:name="com.example.justsaveit.ui.note.NoteFragment"
+        android:label="@string/menu_note"
+        tools:layout="@layout/note_fragment"/>
+
+    <fragment
+        android:id="@+id/fragment_voice"
+        android:name="com.example.justsaveit.ui.voice.VoiceFragment"
+        android:label="@string/menu_voice"
+        tools:layout="@layout/voice_fragment"/>
+
+    <fragment
+        android:id="@+id/fragment_link"
+        android:name="com.example.justsaveit.ui.link.LinkFragment"
+        android:label="@string/menu_link"
+        tools:layout="@layout/link_fragment"/>
+
+
+</navigation>

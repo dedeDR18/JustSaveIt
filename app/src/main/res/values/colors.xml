@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="trans_pink">#A3F06292</color>
+    <color name="trans_batch">#f2edd7</color>
+    <color name="trans_orange">#e48257</color>
+    <color name="trans_choco">#393232</color>
+    <color name="trans_green">#3a6351</color>
 </resources>
