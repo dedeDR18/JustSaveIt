@@ -3,4 +3,6 @@
     <string name="menu_voice">Voice</string>
     <string name="menu_note">Note</string>
     <string name="menu_link">Link</string>
+    <string name="menu_dark_mode">Dark Mode</string>
+    <string name="menu_light_mode">Light Mode</string>
 </resources>
