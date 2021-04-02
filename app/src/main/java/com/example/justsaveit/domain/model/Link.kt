@@ -5,9 +5,9 @@ import kotlinx.parcelize.Parcelize
 
 
 @Parcelize
-data class Note(
+data class Link(
     val id: Long,
     val title: String,
-    val description: String,
-    val date: Long,
+    val link: String,
+    val description: String
 ) : Parcelable
