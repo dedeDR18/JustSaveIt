@@ -33,11 +33,9 @@ class MainActivity : AppCompatActivity() {
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         }
 
-
         navbar = findViewById(R.id.nav_bar)
 
         navController = findNavController(R.id.main_fragment)
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
