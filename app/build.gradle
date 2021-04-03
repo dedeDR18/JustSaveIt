@@ -80,6 +80,11 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1"
     api "androidx.lifecycle:lifecycle-livedata-ktx:2.3.0"
 
+    //room
+    implementation "androidx.room:room-runtime:2.2.6"
+    kapt "androidx.room:room-compiler:2.2.6"
+    androidTestImplementation "androidx.room:room-testing:2.2.6"
+
     //lottieanimation
     implementation "com.airbnb.android:lottie:3.6.1"
 
