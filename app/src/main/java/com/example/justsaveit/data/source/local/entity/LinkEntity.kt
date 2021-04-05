@@ -12,7 +12,8 @@ data class LinkEntity(
 
     @ColumnInfo(name = "title") val title: String,
 
-    @ColumnInfo(name = "description") val description: String,
+    @ColumnInfo(name = "link") val link: String,
 
-    @ColumnInfo(name= "date") val date: Long
+    @ColumnInfo(name = "description") val description: String
+
 )
